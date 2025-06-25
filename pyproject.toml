@@ -6,13 +6,17 @@ readme = "README.md"
 requires-python = "==3.11.*"
 dependencies = [
     "bs4>=0.0.2",
+    "chromadb>=1.0.13",
     "langchain>=0.3.26",
     "langchain-chroma>=0.2.4",
     "langchain-community>=0.3.26",
     "langchain-openai>=0.3.25",
     "langchain-text-splitters>=0.3.8",
+    "langchainhub>=0.1.21",
+    "langgraph>=0.4.9",
     "llmlingua>=0.2.2",
     "python-dotenv>=1.1.0",
+    "tavily-python>=0.7.8",
 ]
 
 [dependency-groups]
